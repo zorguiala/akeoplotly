@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'akeoplotly'
+import Akeoplotly from 'akeoplotly'
 
 export default class App extends Component {
   render () {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <Akeoplotly url= 'http://18.185.101.57:3000/?dbname=custom_moule&limit=10000&skip=0'/>
       </div>
     )
   }
