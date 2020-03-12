@@ -15,12 +15,12 @@ npm install --save akeoplotly
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'akeoplotly'
+import Akeoplotly from 'akeoplotly'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <Akeoplotly url ='#your url'/>
     )
   }
 }
