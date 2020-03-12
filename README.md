@@ -20,14 +20,14 @@ import Akeoplotly from 'akeoplotly'
 class Example extends Component {
   render () {
     return (
-      <Akeoplotly url ='#your url'/>
+      <Akeoplotly url ='API URL'/>
     )
   }
 }
 ```
 
 ```jsx
-API data format 
+API url data format 
 {
   data[,12,3,1,3,1,5,1,...],
   date['12/02/2020 15:13:15','12/02/2020 15:13:15','12/02/2020 15:13:15','12/02/2020 15:13:15',.....]
