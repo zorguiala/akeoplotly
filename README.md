@@ -26,6 +26,13 @@ class Example extends Component {
 }
 ```
 
+```jsx
+API data format 
+{
+  data[,12,3,1,3,1,5,1,...],
+  date['12/02/2020 15:13:15','12/02/2020 15:13:15','12/02/2020 15:13:15','12/02/2020 15:13:15',.....]
+}
+```
 ## License
 
 MIT © [zorguiala](https://github.com/zorguiala)
